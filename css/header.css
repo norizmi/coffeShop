@@ -46,3 +46,42 @@ nav {
     width: 38vw;
     margin-bottom: 26px;
 }
+
+/* BREAKPOINTS */
+@media screen and (min-width: 1280px) {
+    header {
+        border-radius: 20px;
+        font-family: "Lato", sans-serif;
+      }
+    
+      nav {
+        background-color: var(--primary-color);
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+      }
+    
+      .container {
+        display: flex;
+        flex-direction: row;
+        gap: 70.8rem;
+        padding: 5.3em 0 10em 10em;
+      }
+    
+      .container ul {
+        display: flex;
+        gap: 5em;
+        align-items: center;
+      }
+    
+      .container ul a {
+        text-decoration: none;
+        color: #f9fbfe;
+        font-size: 3rem;
+        font-weight: 400;
+      }
+    
+      .container .img-wrapper img {
+        width: 335px;
+        margin-bottom: 26px;
+      }
+}

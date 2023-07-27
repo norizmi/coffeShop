@@ -67,3 +67,75 @@
     font-size: 1.2rem;
     font-weight: 400;
 }
+
+/* BREAKPOINTS */
+@media screen and (min-width: 1280px) {
+
+    section {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 8em 5em;
+        justify-content: center;
+        gap: 3.3rem;
+    }
+    
+
+    .detail-find-us {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .maps iframe {
+        width: 58.1em;
+        height: 58em;
+        display: block;
+        margin: auto;
+        margin-top: 15em;
+        border-radius: 1rem;
+    }
+    
+    .title-find-us {
+        margin-top: 3.7em;
+        line-height: 3.2em;
+    }
+    
+    .title-find-us h2 {
+        font-weight: 800;
+        font-size: 4.8rem;
+        margin-bottom: 0.8em;
+        color: var(--primary-color)
+    }
+    
+    .title-find-us p {
+        color: #143642;
+        font-size: 2.4rem;
+        font-weight: 400;
+        margin-bottom: 1em;
+    }
+    
+    .location {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        margin-top: 1.5em;
+    }
+    
+    .specific-location {
+        outline: 1px solid #D2D2D2;
+        border-radius: 1em;
+        padding: 2rem 2.4rem;
+        width: 47.4rem;
+        height: 19.6rem;
+    }
+    
+    .location .specific-location h3 {
+        font-weight: 700;
+        font-size: 3rem;
+        color: #143642;
+        margin-bottom: 0.5em;
+    }
+    
+    .location .specific-location p {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}

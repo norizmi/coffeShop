@@ -69,3 +69,64 @@ main .menu-content-wrapper p {
     width: 12em;
     height: 10em;
 }
+
+/* BREAKPOINTS */
+@media screen and (min-width: 1280px) {
+    main {
+        font-family: 'Lato', sans-serif;
+        margin-top: 5.5em;
+    }
+    
+    main .menu-content-wrapper h2 {
+        font-size: 4.8rem;
+    }
+    
+    main .menu-content-wrapper p {
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-top: 1em;
+    }
+    
+    .list-products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 25rem;
+        row-gap: 3.5rem;
+        margin-top: 5em;
+    }
+    
+    .list-products .specific-menu {
+        background-image: url(../assets/img/hero-img/Coffee\ background.png);
+        background-position: left;
+        box-sizing: border-box;
+        background-size: cover;
+        padding: 0.5rem;
+        width: 25em;
+        height: 25em;
+        text-align: center;
+        border-radius: 1em;
+    }
+    
+    .list-products .specific-menu .title {
+        color: #F9FBFE;
+        font-size: 2rem;
+        margin-bottom: 0.5em;
+        padding-top: 0.2em;
+    }
+    
+    .list-products .specific-menu .products {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .list-products .specific-menu .price {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    
+    .list-products .specific-menu img {
+        width: 20.1em;
+        height: 18.1em;
+    }
+}
