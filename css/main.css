@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 10px;
+    --primary-color: rgba(15, 139, 141, 1);
+    --footer-bg-color: rgba(20, 54, 66, 1);
+    --btn-color: rgba(168, 32, 26, 1);
+}
+
+/* Navbar */
+#header-home {
+    background-image: url(../assets//img/hero-img/Coffe\ Header.png);
+    height: 70vmax;
+    background-size: cover;
+    border-radius: 20px;
+    background-color: rgba(20, 54, 66, .7);
+    background-blend-mode: multiply;
+    font-family: 'Lato', sans-serif;
+}
+
+#nav-home {
+    background-color: var(--primary-color);
+    background: transparent;
+}
+
+header .header-content {
+    color: rgba(249, 251, 254, 1);
+    text-align: center;
+    margin: 15% 0 ;
+}
+
+header .header-content h2{
+    font-weight: 900;
+    font-size: 3.6rem;
+    text-align: center;
+}
+
+header .header-content p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 0.5em;
+}
+
+/* Content */
+.main-wrapper .content-wrapper {
+    padding: 35px;
+
+}
+.main-wrapper .content-wrapper h3 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline #EC9A29 solid;
+    text-underline-offset: 10px;
+}
+
+.main-wrapper .content-wrapper p {
+    font-size: 1.2rem;
+    color: #143642;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.main-wrapper .content-wrapper img {
+    display: block;
+    width: 160px;
+    height: 210px;
+    margin: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 2.2em;
+}
+
+.main-wrapper .content-wrapper #product-showcase ,
+.main-wrapper .content-wrapper #hang-out {
+    width: 15em;
+    height: 14em;
+}
+
+.btn {
+    background-color: var(--btn-color);
+    color: rgba(249, 251, 254, 1);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    padding: 1em 1.8em;
+    border-radius: 4.1em;
+    margin-top: 1.75em;
+    border: none;
+    font-weight: 400;
+}
+
+/* Feeds-content */
+.title-feeds,
+.ask-wrapper h2 {
+    font-size: 1.7rem;
+    color: var(--primary-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.title-feeds span {
+    color: rgba(236, 154, 41, 1);
+    text-decoration: underline #EC9A29 solid 1.3px;
+    text-underline-offset: 6.9px;
+}
+
+.feeds-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.feeds-content img {
+    width: 7em;
+    height: 7em;
+}
+
+/* Section-Ask-Us */
+.ask-wrapper {
+    margin-top: 4.8em;
+}
+
+.ask-wrapper p{
+    color: rgba(20, 54, 66, 1);
+    font-size: 1.2rem;
+    margin: 1.6em auto;
+    font-family: 'Lato', sans-serif;
+    width: 62%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn-ask-us {
+    display: block;
+    margin: auto;
+    background-color: var(--btn-color);
+    color: rgba(249, 251, 254, 1);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    padding: 1em 5em;
+    border-radius: 4.1em;
+    margin-top: 1.75em;
+    border: none;
+    font-weight: 400;
+    
+}
+

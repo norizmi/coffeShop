@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 10px;
+    --primary-color: rgba(15, 139, 141, 1);
+    --footer-bg-color: rgba(20, 54, 66, 1);
+    --btn-color: rgba(168, 32, 26, 1);
+}
+
+main {
+    font-family: 'Lato', sans-serif;
+    margin-top: 1.8em;
+}
+
+main .menu-content-wrapper h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+main .menu-content-wrapper p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.list-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin-top: 2em;
+}
+
+.list-products .specific-menu {
+    background-image: url(../assets/img/hero-img/Coffee\ background.png);
+    background-position: left;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    width: 13.5em;
+    height: 13.5em;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.list-products .specific-menu .title {
+    color: #F9FBFE;
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+}
+
+.list-products .specific-menu .products {
+    font-weight: 700;
+}
+
+.list-products .specific-menu .price {
+    font-weight: 400;
+    margin-bottom: 0.1em;
+}
+
+.list-products .specific-menu img {
+    width: 12em;
+    height: 10em;
+}
