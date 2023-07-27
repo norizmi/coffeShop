@@ -108,6 +108,8 @@ footer .copyright {
     
     .footer-information {
         font-family: 'Lato', sans-serif;
+        flex-direction: row;
+        justify-content: start;
     }
 
     .products-wrapper,
