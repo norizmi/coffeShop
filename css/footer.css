@@ -39,7 +39,7 @@ footer {
 .footer-information {
     font-family: 'Lato', sans-serif;
     display: flex;
-    justify-content: start;
+    flex-direction: column;
 }
 
 .products-wrapper h5,
