@@ -15,8 +15,8 @@
 /* Navbar */
 #header-home {
     background-image: url(../assets//img/hero-img/Coffe\ Header.png);
-    position: relative;
     height: 70vmax;
+    position: relative;
     background-size: cover;
     border-radius: 20px;
     background-color: rgba(20, 54, 66, .7);
@@ -41,16 +41,20 @@
   background: transparent;
 }
 
+.scroll {
+  display: none;
+}
+
 
 header .header-content {
     color: rgba(249, 251, 254, 1);
     text-align: center;
     /* margin: 15% 0 ; */
+    min-width: 300px;
     position: absolute;
-    height: 500px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -10%);
 }
 
 header .header-content h2{
@@ -226,17 +230,19 @@ header .header-content p {
     #header-home {
       height: 50vmax;
       border-radius: 0.5rem;
+      position: relative;
     }
-  
-    /* #nav-home {
-      background: transparent;
-    } */
   
     header .header-content {
       display: flex;
       flex-direction: column;
       justify-content: start;
       margin: 10em;
+      position: absolute;
+      height: 500px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   
     header .header-content h2 {

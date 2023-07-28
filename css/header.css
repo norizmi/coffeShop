@@ -13,16 +13,12 @@
 }
 
 main {
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
 header {
   border-radius: 20px;
   font-family: "Lato", sans-serif;
-}
-
-.header-non-home {
-  height: 200px;
 }
 
 nav {
@@ -62,9 +58,18 @@ nav {
 
 /* BREAKPOINTS */
 @media screen and (min-width: 1280px) {
+
+  main {
+    margin-top: 250px;
+  }
+  
   header {
     border-radius: 20px;
     font-family: "Lato", sans-serif;
+  }
+
+  .header-non-home {
+    height: 200px;
   }
 
   nav {
