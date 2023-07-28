@@ -12,9 +12,17 @@
   --btn-color: rgba(168, 32, 26, 1);
 }
 
+main {
+  margin-top: 250px;
+}
+
 header {
   border-radius: 20px;
   font-family: "Lato", sans-serif;
+}
+
+.header-non-home {
+  height: 200px;
 }
 
 nav {

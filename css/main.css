@@ -15,6 +15,7 @@
 /* Navbar */
 #header-home {
     background-image: url(../assets//img/hero-img/Coffe\ Header.png);
+    position: relative;
     height: 70vmax;
     background-size: cover;
     border-radius: 20px;
@@ -44,7 +45,12 @@
 header .header-content {
     color: rgba(249, 251, 254, 1);
     text-align: center;
-    margin: 15% 0 ;
+    /* margin: 15% 0 ; */
+    position: absolute;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 header .header-content h2{
