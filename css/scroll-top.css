@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 350px;
+    right: 100px;
+    background-color: rgba(168, 32, 26, 1);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 2s ease-in all;
+}
+
+.scroll-top img {
+    transform: rotate(-90deg);
+    filter: brightness(1) invert();
+}
