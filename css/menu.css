@@ -48,12 +48,28 @@ main .menu-content-wrapper p {
     height: 13.5em;
     text-align: center;
     border-radius: 1em;
+    transition: 300ms all;
+    cursor: pointer;
+}
+
+.list-products .specific-menu:hover {
+    transform: scale(1.1);
+}
+
+.list-products .specific-menu:hover .title {
+    transform: translateY(600%);
+}
+
+.list-products .specific-menu:hover img {
+    position: relative;
+    bottom: 35%;
 }
 
 .list-products .specific-menu .title {
     color: #F9FBFE;
     font-size: 1.2rem;
     margin-bottom: 0.5em;
+    transition: 300ms;
 }
 
 .list-products .specific-menu .products {
@@ -68,6 +84,8 @@ main .menu-content-wrapper p {
 .list-products .specific-menu img {
     width: 12em;
     height: 10em;
+    -webkit-transition: 300ms ease-in-out;
+	transition: 300ms ease-in-out;
 }
 
 /* BREAKPOINTS */
@@ -107,6 +125,21 @@ main .menu-content-wrapper p {
         text-align: center;
         border-radius: 1em;
     }
+
+ .list-products .specific-menu:hover {
+    transform: scale(1.1);
+}
+
+.list-products .specific-menu:hover .title {
+    transform: translateY(680%);
+}
+
+.list-products .specific-menu:hover img {
+    position: relative;
+    bottom: 25%;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
     
     .list-products .specific-menu .title {
         color: #F9FBFE;
