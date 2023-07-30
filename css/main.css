@@ -188,8 +188,8 @@ header .header-content p {
   
     nav {
       background-color: var(--primary-color);
-      border-top-right-radius: 20px;
-      border-top-left-radius: 20px;
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
     }
 
     .nav-home {
