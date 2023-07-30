@@ -70,10 +70,22 @@ header .header-content p {
 }
 
 /* Content */
+.main-wrapper {
+  margin-top: -100px;
+}
+
 .main-wrapper .content-wrapper {
     padding: 35px;
-
+    opacity: 0;
+    transform: translateX(-100%);
 }
+
+.content-wrapper.slide-right {
+  opacity: 1;
+  transform: translateX(10px);
+  transition: 2s ease-out;
+}
+
 .main-wrapper .content-wrapper h3 {
     color: var(--primary-color);
     font-size: 2rem;
@@ -263,6 +275,14 @@ header .header-content p {
     .main-wrapper .content-wrapper {
       display: flex;
       margin-top: 10em;
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+
+    .content-wrapper.slide-right {
+      opacity: 1;
+      transform: translateX(100px);
+      transition: 2s ease-out;
     }
   
     .main-wrapper .content-wrapper h3 {
