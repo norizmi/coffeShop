@@ -17,6 +17,41 @@ main {
     margin-top: 1.8em;
 }
 
+.sidebar {
+   font-size: 1.2rem;
+   border: 1px solid rgb(120, 120, 120);
+   width: max-content;
+   padding: 20px;
+   margin: 20px auto;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+
+.sidebar .title-sidebar {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 2px solid #EC9A29;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.sidebar a:hover {
+    color: #EC9A29;
+}
+
+.active {
+    border-bottom: 1.8px solid #EC9A29;
+}
+
 main .menu-content-wrapper h2 {
     color: var(--primary-color);
     font-size: 2rem;
