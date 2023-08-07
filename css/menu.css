@@ -133,18 +133,78 @@ main .menu-content-wrapper p {
     main .menu-content-wrapper h2 {
         font-size: 4.8rem;
     }
+
+    main .menu-content-wrapper {
+        width: 100%;
+    }
     
     main .menu-content-wrapper p {
         font-size: 2.4rem;
         font-weight: 500;
         margin-top: 1em;
     }
+
+    main section {
+        display: flex;
+        padding: 100px 100px;
+        gap: 10px;
+    }
+
+    .sidebar {
+        font-size: 1.2rem;
+        border: 1px solid rgb(120, 120, 120);
+        width: 20%;
+        height: 750px;
+        padding: 20px;
+        margin: 20px auto;
+        box-sizing: border-box;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+     }
+
+     
+     .sidebar .title-sidebar {
+         color: var(--primary-color);
+         font-size: 2.5rem;
+         font-weight: 700;
+         border-bottom: none;
+         margin-bottom: 10px;
+         width: fit-content;
+     }
+
+     .wrapper-a {
+        position: relative;
+     }
+     
+     .sidebar a {
+         text-decoration: none;
+         color: black;
+         font-size: 1.7rem;
+         padding-left: 2.2em;
+         cursor: pointer;
+         line-height: 3em;
+     }
+
+     .vl {
+        border-left: 6px solid #EC9A29;
+        height: 130px;
+        position: absolute;
+        top: 10%;
+        left: 2%;
+        border-radius: 10px;
+    }
+
+     
+     .sidebar a:hover {
+         color: #EC9A29;
+     }
     
     .list-products {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        column-gap: 25rem;
+        column-gap: 15rem;
         row-gap: 3.5rem;
         margin-top: 5em;
     }
@@ -158,7 +218,7 @@ main .menu-content-wrapper p {
         width: 25em;
         height: 25em;
         text-align: center;
-        border-radius: 1em;
+        border-radius: 2em;
     }
 
  .list-products .specific-menu:hover {
