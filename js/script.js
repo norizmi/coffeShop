@@ -23,16 +23,3 @@ const observer = new IntersectionObserver((entries) => {
 contentWrapper.forEach((content) => {
   observer.observe(content);
 });
-
-
-// Accordion
-// const accordion = document.querySelectorAll(".accordion");
-// const subUnit = document.querySelectorAll(".sub");
-// subUnit
-
-// accordion.forEach((acc,key) => {
-//   // const subUnit = document.querySelectorAll(".sub");
-//     acc.addEventListener("click", function() {
-      
-//     })
-// })
