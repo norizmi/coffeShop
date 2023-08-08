@@ -34,6 +34,10 @@ nav {
   z-index: 3;
 }
 
+/* .active-header {
+  border-bottom: 2px solid #EC9A29;
+} */
+
 .container {
   display: flex;
   flex-direction: column;
