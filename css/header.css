@@ -34,9 +34,10 @@ nav {
   z-index: 3;
 }
 
-/* .active-header {
+.active-header {
   border-bottom: 2px solid #EC9A29;
-} */
+  transition: 0.3s ease-in all;
+}
 
 .container {
   display: flex;
